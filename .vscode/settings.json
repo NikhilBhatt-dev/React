@@ -1,0 +1,6 @@
+{
+    "[snippets]": {
+        "editor.snippets.codeActions.enabled": true
+    },
+    "tailwindCSS.experimental.configFile": null
+}
