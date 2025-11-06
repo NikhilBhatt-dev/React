@@ -11,11 +11,21 @@ html , body{
 }
 
 body{
-    background: #111;
+    background: #d6b0b0;
 }
 
 .card{
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     box-sizing: border-box;
+     padding: 12px;
+
+}
+
+.nav{
+    border: 2px solid black;
+    padding: 12px;
+    justify-content: center;
+    color: black;
+    background: rgb(183, 183, 202);
     
 }
