@@ -13,3 +13,9 @@ html , body{
 body{
     background: #111;
 }
+
+.card{
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
