@@ -11,6 +11,15 @@ html , body{
 .parent{
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
+   padding: 30px;
     background:#111;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+
+
 }
