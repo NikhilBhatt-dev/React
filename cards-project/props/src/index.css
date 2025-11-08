@@ -13,6 +13,8 @@ html , body{
     width: 100%;
    padding: 30px;
     background:#111;
+    display: flex;
+    gap:30px ;
 }
 
 .card{
@@ -86,7 +88,8 @@ html , body{
         background-color: #dadada;
         color: #111;
         font-weight: 500;
-        padding: 3px 6px;
+        padding: 4px 8px;
+        border-radius: 3px;
 
     }
  
@@ -94,6 +97,26 @@ html , body{
     display : flex;
     align-items: center;
     justify-content:space-between;
-    border-top: 1px solid #b1b1b1 ;
+    border-top: 1.5px solid #d7d7d7 ;
     padding-top: 15px ;
+}
+
+.bottom button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    column-width: 600;
+
+}
+
+.bottom h3 
+{
+    font-size: 17px;
+}
+
+.bottom p{
+    font-size:  10px;
+    color: #8b8b8b;
 }
