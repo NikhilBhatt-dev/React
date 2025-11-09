@@ -1,12 +1,15 @@
 import React from 'react'
-import card from './components/Card'
-
+import Card from "./components/Card"
 
 const App = () => {
   return (
-    <div className='parent'>
-      
-<Card />
+    <div className='parent'> 
+        
+      <Card />
+      <Card />
+
+          
+          
 
     </div>
   )
