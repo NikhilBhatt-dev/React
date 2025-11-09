@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:  white;
+    
 }
 html , body{
     height: 100%;
@@ -10,13 +10,14 @@ html , body{
 }
 
 .parent{
-    height: 100rem;
+    min-height: 100vh;
     width: 100%;
     padding: 30px;
     background:#111;
     display: flex;
-    gap:30px;
+    gap:80px;
     border: 2px solid black;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -28,6 +29,7 @@ html , body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+     margin-left:32px;
 
 
 }
@@ -66,6 +68,7 @@ html , body{
 .center h3{
     font-size: 17px;
     font-weight: 500;
+    color:black;
 
  }
 
