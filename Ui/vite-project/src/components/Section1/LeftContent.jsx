@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftContent = () => {
   return (
-    <div className='bg-amber-900'>
+    <div className='bg-amber-800'>
         LeftContent  
         </div>
   )
