@@ -4,7 +4,9 @@ import Button from './components/Button'
 const App = () => {
   return (
     <div>
-      <Button/>
+      <div className='h-screen w-full bg-gray-900'>
+        hello
+      </div>
     </div>
   )
 }
